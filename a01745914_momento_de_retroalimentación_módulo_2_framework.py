@@ -26,7 +26,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 """#Base de datos
 """
 #click derecho sobre el file > copy path > pegar path
-df = pd.read_csv("/Users/naomipadilla/Downloads/test/titanic.csv", header=0)
+df = pd.read_csv("titanic.csv", header=0)
 df.head()
 
 """#Limpieza del Dataset
